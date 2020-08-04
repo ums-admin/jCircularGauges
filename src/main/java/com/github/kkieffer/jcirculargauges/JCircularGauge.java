@@ -36,7 +36,8 @@ import javax.swing.JComponent;
  * @author kkieffer
  */
 public class JCircularGauge extends JComponent {
-    
+
+	private static final long serialVersionUID = 1L;
        
     protected Color bezelColor;
     protected Color background;

@@ -37,7 +37,8 @@ import java.awt.geom.Rectangle2D;
  * @author kkieffer
  */
 public class JCompass extends JCircularGauge {
-    
+
+	private static final long serialVersionUID = 1L;
    
     private boolean northUp;
     private double bearing;

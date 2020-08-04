@@ -38,7 +38,8 @@ import java.awt.geom.Path2D;
  * @author kkieffer
  */
 public class JSpeedometer extends JCircularGauge {
-    
+
+	private static final long serialVersionUID = 1L;
     private static final int NUM_MAJOR_TICKS = 14;
     
     private double maxSpeed;
