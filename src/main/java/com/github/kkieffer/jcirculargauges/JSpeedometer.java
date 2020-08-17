@@ -38,7 +38,8 @@ import java.awt.geom.Path2D;
  * @author kkieffer
  */
 public class JSpeedometer extends JCircularGauge {
-    
+
+	private static final long serialVersionUID = 1L;
     private static final int NUM_MAJOR_TICKS = 14;
     
     private double maxSpeed;
@@ -225,7 +226,7 @@ public class JSpeedometer extends JCircularGauge {
         drawDialCenter(g2d);
 
         //Now paint the bezel
-        paintBezel(g2d);
+        drawBezel(g2d);
             
         completePaint(g2d);
 

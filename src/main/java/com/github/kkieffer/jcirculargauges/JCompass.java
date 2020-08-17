@@ -37,7 +37,8 @@ import java.awt.geom.Rectangle2D;
  * @author kkieffer
  */
 public class JCompass extends JCircularGauge {
-    
+
+	private static final long serialVersionUID = 1L;
    
     private boolean northUp;
     private double bearing;
@@ -295,7 +296,7 @@ public class JCompass extends JCircularGauge {
         drawDialCenter(g2d);
       
         //Now paint the bezel
-        paintBezel(g2d);
+        drawBezel(g2d);
             
         completePaint(g2d);
 

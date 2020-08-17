@@ -36,6 +36,7 @@ import javax.swing.JComponent;
  */
 public class JSegmentGauge extends JComponent {
 
+	private static final long serialVersionUID = 1L;
     private final Color labelColor;
     private final Color[] segmentColors;
     private final String[] segmentLabels;
